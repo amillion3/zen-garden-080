@@ -9,69 +9,56 @@ body {
     background-color: #474747;
     padding: 20px 20px;
 }
-
 p,
 li {
     font-size: 13px;
 }
-
 .primary-container {
     margin: 0 auto;
     width: 61%;
     border: 5px solid white;
     background-color: #96CDFB;
 }
-
 .primary-container header {
     position: relative;
 }
-
 .primary-container header h1 {
     position: absolute;
     top: 5px;
     right: 20px;
     color: white;
 }
-
 .primary-container header h3 {
     position: absolute;
     top: 35px;
     right: 21px;
     color: black;
 }
-
 .primary-container header img {
     width: 100%;
     max-height: 200px;
 }
-
 body div header {
     background-color: white;
 }
-
 article {
     background-color: #96CDFB;
-    border: 0.5px solid white;
+    /* border: 0.5px solid white; */
 }
-
 article h3 img {
     max-width: 18px;
     padding: 3px 3px 0px 3px;
 }
-
 article ul li {
     list-style-type: none;
 }
-
 .secondary-container .section-right article {
     padding: 10px 25px 10px 25px;
     border: none;
 }
-
 .secondary-container .section-right article:first-child {
     border-top: 0.5px solid white;
 }
-
 .section-left {
     float: left;
     width: 24%;
@@ -80,38 +67,35 @@ article ul li {
     float: right;
     width: 76%;
 }
-
 .section-left article {
     padding: 20px 15px 30px 15px;
-    border: 0.5px solid white;
+    border-right: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    border-left: 0.5px solid white;
 }
-
+.section-left article:first-of-type {
+    border-top: 0.5px solid white;
+}
 .section-left article h3 {
     font-size: 16px;
 }
-
 .section-left article nav ul li,
 .section-left article ul li,
 .section-left article p {
     padding-left: 18px;
 }
-
-
 .title {
     color: black;
     text-decoration: none;
 }
-
 .title:hover,
 .author:hover {
     color: white;
 }
-
 .author {
     color: blue;
     text-decoration: none;
 }
-
 .section-right article h2,
 .section-right article h3 {
     background-image: -webkit-linear-gradient(top left, #00334F 0%, #0090C0 100%);
@@ -120,15 +104,12 @@ article ul li {
     color: white;
     font-weight: 100;
 }
-
 .section-right article p {
     padding: 15px 15px 0px 15px;
 }
-
 .section-right article p:first-of-type {
     padding: 5px 15px 0px 15px;
 }
-
 footer {
     content: "";
     clear: both;
@@ -138,11 +119,9 @@ footer {
     border-top: 2px solid white;
     padding: 5px 5px;
 }
-
 footer nav {
     float: right;
 }
-
 footer nav a {
     float: left;
     margin-right: 15px;
