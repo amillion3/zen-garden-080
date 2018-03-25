@@ -9,6 +9,14 @@ The goal of this project was to work as a team to breakdown the HTML and CSS of 
 - CSS3
 
 ## Screenshots
+![Original design](https://raw.githubusercontent.com/amillion3/zen-garden-080/master/screenshots/original.png)
+
+Original Design
+
+___
+![My design](https://raw.githubusercontent.com/amillion3/zen-garden-080/master/screenshots/mine.png)
+
+My recreation
 
 ___
 ## Running The Project
